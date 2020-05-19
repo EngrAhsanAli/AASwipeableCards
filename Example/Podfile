@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AASwipeableCards_Example' do
+  pod 'AASwipeableCards', :path => '../'
+
+  target 'AASwipeableCards_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

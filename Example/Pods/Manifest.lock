@@ -1,0 +1,16 @@
+PODS:
+  - AASwipeableCards (0.1.0)
+
+DEPENDENCIES:
+  - AASwipeableCards (from `../`)
+
+EXTERNAL SOURCES:
+  AASwipeableCards:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AASwipeableCards: e7955a8fa2b7b108bde97711275961f386fbd289
+
+PODFILE CHECKSUM: 292ea1526200a6fb36811860d34079b940adac3a
+
+COCOAPODS: 1.9.1

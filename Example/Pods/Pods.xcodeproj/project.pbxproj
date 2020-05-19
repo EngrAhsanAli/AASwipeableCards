@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12305803DEC2D58836EF4CFE7C70BB16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1A1583D78B967D6319CEA13AFB70D17C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		3D6DBF1EDF2410C28EE003A567327F31 /* Pods-AASwipeableCards_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A897CF3063AFC14CE9456B734D77572C /* Pods-AASwipeableCards_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E9FA4CD7CB421BC117B2D94E7D4EE5A /* AASwipeableCards-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FE56DE9D7D569E92EC7B0A8FB160166 /* AASwipeableCards-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		733403E6E66C8602EBAE1BE12CCF6111 /* AASwipeableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A15850F8E28DCB284275C347CFF385E /* AASwipeableView.swift */; };
+		9194F10EAEEA870E6C26E638BD6736A5 /* Pods-AASwipeableCards_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53B2AC56242572AC082730FF2330D3BB /* Pods-AASwipeableCards_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95B9812215BDA0308C85B601D1F46271 /* Pods-AASwipeableCards_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4854549EEF80582B3978233EEF29BF9 /* Pods-AASwipeableCards_Example-dummy.m */; };
+		A4EA4F0A74B2801BEDFD98162DCDA776 /* Pods-AASwipeableCards_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88648B8989D311287EBD6A3EC878D649 /* Pods-AASwipeableCards_Tests-dummy.m */; };
+		E61623ECB53DF913861D39014AAC696E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F62E04F3866F3130A682E63BBB0F55A6 /* AASwipeableCards-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A473F1220ADD957DFEEA2D7F051AE5 /* AASwipeableCards-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		069D4A2D3A82138860438FBEFDE05B37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 457E69D21ADFE7858E04B671AC59B76A;
+			remoteInfo = AASwipeableCards;
+		};
+		EB5BDD99AF64630BAE572D8D003DFA6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4078247ABF886D9ADBBF2D73E6EF5673;
+			remoteInfo = "Pods-AASwipeableCards_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02532A7F87DF5A252AFC0AD9B520A629 /* AASwipeableCards-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AASwipeableCards-Info.plist"; sourceTree = "<group>"; };
+		0E7062AF0F1AE58A3FC2A390AAD2C094 /* Pods-AASwipeableCards_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AASwipeableCards_Tests-Info.plist"; sourceTree = "<group>"; };
+		0FE56DE9D7D569E92EC7B0A8FB160166 /* AASwipeableCards-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AASwipeableCards-umbrella.h"; sourceTree = "<group>"; };
+		18F6B9CBEEF5845593C203B258965332 /* Pods-AASwipeableCards_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AASwipeableCards_Example.modulemap"; sourceTree = "<group>"; };
+		1A15850F8E28DCB284275C347CFF385E /* AASwipeableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AASwipeableView.swift; path = AASwipeableCards/Classes/AASwipeableView.swift; sourceTree = "<group>"; };
+		1FE5281D899BFC4E99C37854807630F8 /* Pods-AASwipeableCards_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AASwipeableCards_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		235FFAA9744F26EA6CD0034C869A7C06 /* AASwipeableCards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AASwipeableCards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		268D431D4CB6684840EF140B9C052EAE /* AASwipeableCards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AASwipeableCards.debug.xcconfig; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		45DADBE6D494919D9613191E5EA81ECE /* AASwipeableCards.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AASwipeableCards.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		50A473F1220ADD957DFEEA2D7F051AE5 /* AASwipeableCards-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AASwipeableCards-dummy.m"; sourceTree = "<group>"; };
+		53B2AC56242572AC082730FF2330D3BB /* Pods-AASwipeableCards_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AASwipeableCards_Example-umbrella.h"; sourceTree = "<group>"; };
+		56371B2E846CE235BCED99C09896A838 /* Pods-AASwipeableCards_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AASwipeableCards_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6632C18813284A608983BB32949CEF31 /* AASwipeableCards.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AASwipeableCards.modulemap; sourceTree = "<group>"; };
+		6AEBE7D7B77F0D3BD032A8E63A831622 /* Pods-AASwipeableCards_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AASwipeableCards_Example-Info.plist"; sourceTree = "<group>"; };
+		71FAD2C348EFC8B417DDD98C40F9FC0F /* Pods-AASwipeableCards_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AASwipeableCards_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		754ED3A6765B64F681F3B75FFB2405F9 /* Pods-AASwipeableCards_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AASwipeableCards_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		88648B8989D311287EBD6A3EC878D649 /* Pods-AASwipeableCards_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AASwipeableCards_Tests-dummy.m"; sourceTree = "<group>"; };
+		8940D94F09A5AE36FBB8D35CA0A7E857 /* AASwipeableCards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AASwipeableCards.release.xcconfig; sourceTree = "<group>"; };
+		95A1ED014FFE86AC4C770D6700C2C390 /* Pods-AASwipeableCards_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AASwipeableCards_Example-frameworks.sh"; sourceTree = "<group>"; };
+		973BAB601D5787B2CC4E4A7C94791B85 /* AASwipeableCards-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AASwipeableCards-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A86991D123AFE329EA7143C4E3C8B151 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A897CF3063AFC14CE9456B734D77572C /* Pods-AASwipeableCards_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AASwipeableCards_Tests-umbrella.h"; sourceTree = "<group>"; };
+		ACF32F30719C97333CA124919C2B3EDC /* Pods-AASwipeableCards_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AASwipeableCards_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B61A228268F1A0CC4C9B83C5946DA08A /* Pods-AASwipeableCards_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AASwipeableCards_Tests.modulemap"; sourceTree = "<group>"; };
+		C44B57BD2DB0EA9CA4CAC8C17A499F0F /* Pods_AASwipeableCards_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AASwipeableCards_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD658F7BC5CA198041CE6B42569E3A0E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E2232184B4C7F64DA3C6BC5EBA5F09EC /* Pods-AASwipeableCards_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AASwipeableCards_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E4854549EEF80582B3978233EEF29BF9 /* Pods-AASwipeableCards_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AASwipeableCards_Example-dummy.m"; sourceTree = "<group>"; };
+		E5E8AA63419FCE68285E30D6933AB79C /* Pods-AASwipeableCards_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AASwipeableCards_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EB71E82437DD7A30FBE355F0E0E92BB4 /* Pods_AASwipeableCards_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AASwipeableCards_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F86607F995819C6CB86844E6F5DC21FA /* Pods-AASwipeableCards_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AASwipeableCards_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C32385E029B9B73DF76A5FB07851AC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12305803DEC2D58836EF4CFE7C70BB16 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB67B23D3E4660CB0F71951E43C2C72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A1583D78B967D6319CEA13AFB70D17C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843506E093EF77DC0962DD303DBDF722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E61623ECB53DF913861D39014AAC696E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03352358E0F5FA6986034A18A930A8B1 /* Pods-AASwipeableCards_Example */ = {
+			isa = PBXGroup;
+			children = (
+				18F6B9CBEEF5845593C203B258965332 /* Pods-AASwipeableCards_Example.modulemap */,
+				F86607F995819C6CB86844E6F5DC21FA /* Pods-AASwipeableCards_Example-acknowledgements.markdown */,
+				ACF32F30719C97333CA124919C2B3EDC /* Pods-AASwipeableCards_Example-acknowledgements.plist */,
+				E4854549EEF80582B3978233EEF29BF9 /* Pods-AASwipeableCards_Example-dummy.m */,
+				95A1ED014FFE86AC4C770D6700C2C390 /* Pods-AASwipeableCards_Example-frameworks.sh */,
+				6AEBE7D7B77F0D3BD032A8E63A831622 /* Pods-AASwipeableCards_Example-Info.plist */,
+				53B2AC56242572AC082730FF2330D3BB /* Pods-AASwipeableCards_Example-umbrella.h */,
+				754ED3A6765B64F681F3B75FFB2405F9 /* Pods-AASwipeableCards_Example.debug.xcconfig */,
+				E5E8AA63419FCE68285E30D6933AB79C /* Pods-AASwipeableCards_Example.release.xcconfig */,
+			);
+			name = "Pods-AASwipeableCards_Example";
+			path = "Target Support Files/Pods-AASwipeableCards_Example";
+			sourceTree = "<group>";
+		};
+		126FF9B2CDA34CD08C7C5F7FD0E998AB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BBAC4F59F9DA8BFD920276C7AA783CF /* AASwipeableCards */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4660F2CD1CD03FAF1587DA521453C74B /* Pods-AASwipeableCards_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B61A228268F1A0CC4C9B83C5946DA08A /* Pods-AASwipeableCards_Tests.modulemap */,
+				56371B2E846CE235BCED99C09896A838 /* Pods-AASwipeableCards_Tests-acknowledgements.markdown */,
+				71FAD2C348EFC8B417DDD98C40F9FC0F /* Pods-AASwipeableCards_Tests-acknowledgements.plist */,
+				88648B8989D311287EBD6A3EC878D649 /* Pods-AASwipeableCards_Tests-dummy.m */,
+				0E7062AF0F1AE58A3FC2A390AAD2C094 /* Pods-AASwipeableCards_Tests-Info.plist */,
+				A897CF3063AFC14CE9456B734D77572C /* Pods-AASwipeableCards_Tests-umbrella.h */,
+				E2232184B4C7F64DA3C6BC5EBA5F09EC /* Pods-AASwipeableCards_Tests.debug.xcconfig */,
+				1FE5281D899BFC4E99C37854807630F8 /* Pods-AASwipeableCards_Tests.release.xcconfig */,
+			);
+			name = "Pods-AASwipeableCards_Tests";
+			path = "Target Support Files/Pods-AASwipeableCards_Tests";
+			sourceTree = "<group>";
+		};
+		8BBAC4F59F9DA8BFD920276C7AA783CF /* AASwipeableCards */ = {
+			isa = PBXGroup;
+			children = (
+				1A15850F8E28DCB284275C347CFF385E /* AASwipeableView.swift */,
+				95005B508A2A72C9180303BA9436E9D9 /* Pod */,
+				AAE7120E84303B9778718C30924B3C6D /* Support Files */,
+			);
+			name = AASwipeableCards;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		95005B508A2A72C9180303BA9436E9D9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				45DADBE6D494919D9613191E5EA81ECE /* AASwipeableCards.podspec */,
+				CD658F7BC5CA198041CE6B42569E3A0E /* LICENSE */,
+				A86991D123AFE329EA7143C4E3C8B151 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		AA826E57B408AA3F65A8755818F7954F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				03352358E0F5FA6986034A18A930A8B1 /* Pods-AASwipeableCards_Example */,
+				4660F2CD1CD03FAF1587DA521453C74B /* Pods-AASwipeableCards_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AAE7120E84303B9778718C30924B3C6D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6632C18813284A608983BB32949CEF31 /* AASwipeableCards.modulemap */,
+				50A473F1220ADD957DFEEA2D7F051AE5 /* AASwipeableCards-dummy.m */,
+				02532A7F87DF5A252AFC0AD9B520A629 /* AASwipeableCards-Info.plist */,
+				973BAB601D5787B2CC4E4A7C94791B85 /* AASwipeableCards-prefix.pch */,
+				0FE56DE9D7D569E92EC7B0A8FB160166 /* AASwipeableCards-umbrella.h */,
+				268D431D4CB6684840EF140B9C052EAE /* AASwipeableCards.debug.xcconfig */,
+				8940D94F09A5AE36FBB8D35CA0A7E857 /* AASwipeableCards.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AASwipeableCards";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				126FF9B2CDA34CD08C7C5F7FD0E998AB /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				EF9BDE7CB6601C9C0C014A76B3609546 /* Products */,
+				AA826E57B408AA3F65A8755818F7954F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF9BDE7CB6601C9C0C014A76B3609546 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				235FFAA9744F26EA6CD0034C869A7C06 /* AASwipeableCards.framework */,
+				EB71E82437DD7A30FBE355F0E0E92BB4 /* Pods_AASwipeableCards_Example.framework */,
+				C44B57BD2DB0EA9CA4CAC8C17A499F0F /* Pods_AASwipeableCards_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03F9D9BA8C6FE3BFB46AD6C0D74C5D22 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E9FA4CD7CB421BC117B2D94E7D4EE5A /* AASwipeableCards-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B06AC6A7F8E3EB2C56DD5F4F2C79406 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D6DBF1EDF2410C28EE003A567327F31 /* Pods-AASwipeableCards_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFD126C7D21C86D26336F7CE57B3408D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9194F10EAEEA870E6C26E638BD6736A5 /* Pods-AASwipeableCards_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		25A84562A0DE33849A3A06268C5F05D8 /* Pods-AASwipeableCards_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E068B47C144B12425FA111888AABB8D /* Build configuration list for PBXNativeTarget "Pods-AASwipeableCards_Tests" */;
+			buildPhases = (
+				0B06AC6A7F8E3EB2C56DD5F4F2C79406 /* Headers */,
+				370EE7113A2B6CC8927A7D5F5894F613 /* Sources */,
+				843506E093EF77DC0962DD303DBDF722 /* Frameworks */,
+				05212150DB10AF165FD1B2894913E79D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				039BCBFB118DB470CB198987CB797AA8 /* PBXTargetDependency */,
+			);
+			name = "Pods-AASwipeableCards_Tests";
+			productName = "Pods-AASwipeableCards_Tests";
+			productReference = C44B57BD2DB0EA9CA4CAC8C17A499F0F /* Pods_AASwipeableCards_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4078247ABF886D9ADBBF2D73E6EF5673 /* Pods-AASwipeableCards_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9355DDF21678518BB51C492C2567B3A /* Build configuration list for PBXNativeTarget "Pods-AASwipeableCards_Example" */;
+			buildPhases = (
+				AFD126C7D21C86D26336F7CE57B3408D /* Headers */,
+				5C429028D2E833174CBF246ADF916EAE /* Sources */,
+				4CB67B23D3E4660CB0F71951E43C2C72 /* Frameworks */,
+				9C49B0566D212EA7F00246CF22458D4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				602D4A0F64B01AF19C56930B31F22619 /* PBXTargetDependency */,
+			);
+			name = "Pods-AASwipeableCards_Example";
+			productName = "Pods-AASwipeableCards_Example";
+			productReference = EB71E82437DD7A30FBE355F0E0E92BB4 /* Pods_AASwipeableCards_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		457E69D21ADFE7858E04B671AC59B76A /* AASwipeableCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFC3D3B52C3F111A24CAE8844DBDC697 /* Build configuration list for PBXNativeTarget "AASwipeableCards" */;
+			buildPhases = (
+				03F9D9BA8C6FE3BFB46AD6C0D74C5D22 /* Headers */,
+				9AE60584F4ABA055C395E9489FD4A733 /* Sources */,
+				1C32385E029B9B73DF76A5FB07851AC2 /* Frameworks */,
+				CB84E1777A0F92D18224315E3BE6170E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AASwipeableCards;
+			productName = AASwipeableCards;
+			productReference = 235FFAA9744F26EA6CD0034C869A7C06 /* AASwipeableCards.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = EF9BDE7CB6601C9C0C014A76B3609546 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				457E69D21ADFE7858E04B671AC59B76A /* AASwipeableCards */,
+				4078247ABF886D9ADBBF2D73E6EF5673 /* Pods-AASwipeableCards_Example */,
+				25A84562A0DE33849A3A06268C5F05D8 /* Pods-AASwipeableCards_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05212150DB10AF165FD1B2894913E79D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C49B0566D212EA7F00246CF22458D4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB84E1777A0F92D18224315E3BE6170E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		370EE7113A2B6CC8927A7D5F5894F613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4EA4F0A74B2801BEDFD98162DCDA776 /* Pods-AASwipeableCards_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C429028D2E833174CBF246ADF916EAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95B9812215BDA0308C85B601D1F46271 /* Pods-AASwipeableCards_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AE60584F4ABA055C395E9489FD4A733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F62E04F3866F3130A682E63BBB0F55A6 /* AASwipeableCards-dummy.m in Sources */,
+				733403E6E66C8602EBAE1BE12CCF6111 /* AASwipeableView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		039BCBFB118DB470CB198987CB797AA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AASwipeableCards_Example";
+			target = 4078247ABF886D9ADBBF2D73E6EF5673 /* Pods-AASwipeableCards_Example */;
+			targetProxy = EB5BDD99AF64630BAE572D8D003DFA6E /* PBXContainerItemProxy */;
+		};
+		602D4A0F64B01AF19C56930B31F22619 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AASwipeableCards;
+			target = 457E69D21ADFE7858E04B671AC59B76A /* AASwipeableCards */;
+			targetProxy = 069D4A2D3A82138860438FBEFDE05B37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8D5EE48CFF210DA43B2945D70C90CF5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 268D431D4CB6684840EF140B9C052EAE /* AASwipeableCards.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AASwipeableCards/AASwipeableCards-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AASwipeableCards/AASwipeableCards-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AASwipeableCards/AASwipeableCards.modulemap";
+				PRODUCT_MODULE_NAME = AASwipeableCards;
+				PRODUCT_NAME = AASwipeableCards;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		939CBDF5700B0CBBCED8DC68863E4D75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2232184B4C7F64DA3C6BC5EBA5F09EC /* Pods-AASwipeableCards_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AASwipeableCards_Tests/Pods-AASwipeableCards_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AASwipeableCards_Tests/Pods-AASwipeableCards_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1E538913586250540BB6CDE5B324206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8940D94F09A5AE36FBB8D35CA0A7E857 /* AASwipeableCards.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AASwipeableCards/AASwipeableCards-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AASwipeableCards/AASwipeableCards-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AASwipeableCards/AASwipeableCards.modulemap";
+				PRODUCT_MODULE_NAME = AASwipeableCards;
+				PRODUCT_NAME = AASwipeableCards;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A96A9F24D740491708BDBC8BF08F252A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5E8AA63419FCE68285E30D6933AB79C /* Pods-AASwipeableCards_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AASwipeableCards_Example/Pods-AASwipeableCards_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AASwipeableCards_Example/Pods-AASwipeableCards_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D5FC0C87E965C0422DDBF0F247D21EE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FE5281D899BFC4E99C37854807630F8 /* Pods-AASwipeableCards_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AASwipeableCards_Tests/Pods-AASwipeableCards_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AASwipeableCards_Tests/Pods-AASwipeableCards_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EB0897516AB62B3656DA9596EAA5EFD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 754ED3A6765B64F681F3B75FFB2405F9 /* Pods-AASwipeableCards_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AASwipeableCards_Example/Pods-AASwipeableCards_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AASwipeableCards_Example/Pods-AASwipeableCards_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E068B47C144B12425FA111888AABB8D /* Build configuration list for PBXNativeTarget "Pods-AASwipeableCards_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939CBDF5700B0CBBCED8DC68863E4D75 /* Debug */,
+				D5FC0C87E965C0422DDBF0F247D21EE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFC3D3B52C3F111A24CAE8844DBDC697 /* Build configuration list for PBXNativeTarget "AASwipeableCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D5EE48CFF210DA43B2945D70C90CF5E /* Debug */,
+				A1E538913586250540BB6CDE5B324206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9355DDF21678518BB51C492C2567B3A /* Build configuration list for PBXNativeTarget "Pods-AASwipeableCards_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB0897516AB62B3656DA9596EAA5EFD8 /* Debug */,
+				A96A9F24D740491708BDBC8BF08F252A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

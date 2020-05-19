@@ -1,0 +1,6 @@
+framework module Pods_AASwipeableCards_Tests {
+  umbrella header "Pods-AASwipeableCards_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

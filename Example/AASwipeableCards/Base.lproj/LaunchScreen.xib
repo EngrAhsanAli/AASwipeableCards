@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="l9f-w9-GI1">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright (c) 2020 AA-Creations. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="eJz-wr-FcM">
+                    <rect key="frame" x="20" y="439" width="440" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="x1X-ut-Hef"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="0.69549978599999995" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AA" translatesAutoresizingMaskIntoConstraints="NO" id="fG4-AX-cQt">
+                    <rect key="frame" x="22" y="20" width="440" height="400"/>
+                </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AASwipeableCards" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="RuM-PD-2jG">
+                    <rect key="frame" x="20" y="376" width="440" height="44"/>
+                    <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="40"/>
+                    <color key="textColor" white="1" alpha="0.69549978599999995" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.13725490200000001" green="0.1215686275" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="RuM-PD-2jG" firstAttribute="bottom" secondItem="fG4-AX-cQt" secondAttribute="bottom" id="3DZ-WA-skp"/>
+                <constraint firstItem="RuM-PD-2jG" firstAttribute="trailing" secondItem="eJz-wr-FcM" secondAttribute="trailing" id="3Gv-Sg-fqB"/>
+                <constraint firstItem="RuM-PD-2jG" firstAttribute="centerX" secondItem="l9f-w9-GI1" secondAttribute="centerX" id="5LK-0h-NTz"/>
+                <constraint firstItem="fG4-AX-cQt" firstAttribute="top" secondItem="l9f-w9-GI1" secondAttribute="top" constant="20" id="5P1-Ki-EgX"/>
+                <constraint firstItem="fG4-AX-cQt" firstAttribute="leading" secondItem="l9f-w9-GI1" secondAttribute="leading" constant="22" id="8xi-Wp-33q"/>
+                <constraint firstAttribute="trailing" secondItem="fG4-AX-cQt" secondAttribute="trailing" constant="18" id="Izd-L3-erN"/>
+                <constraint firstItem="RuM-PD-2jG" firstAttribute="leading" secondItem="l9f-w9-GI1" secondAttribute="leading" constant="20" id="Jmz-Dc-emn"/>
+                <constraint firstItem="RuM-PD-2jG" firstAttribute="leading" secondItem="eJz-wr-FcM" secondAttribute="leading" id="hHQ-dZ-v1R"/>
+                <constraint firstAttribute="bottom" secondItem="eJz-wr-FcM" secondAttribute="bottom" constant="20" id="mbS-df-mzQ"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="AA" width="400" height="400"/>
+    </resources>
+</document>

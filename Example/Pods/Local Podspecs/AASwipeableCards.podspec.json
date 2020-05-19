@@ -1,0 +1,22 @@
+{
+  "name": "AASwipeableCards",
+  "version": "0.1.0",
+  "summary": "A short description of AASwipeableCards.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/engrahsanali/AASwipeableCards",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "engrahsanali": "hafiz.m.ahsan.ali@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/engrahsanali/AASwipeableCards.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AASwipeableCards/Classes/**/*"
+}

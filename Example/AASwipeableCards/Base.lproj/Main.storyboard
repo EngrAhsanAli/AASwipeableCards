@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="AASwipeableCards_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pc5-bl-B8A" customClass="AASwipeableView" customModule="AASwipeableCards">
+                                <rect key="frame" x="18" y="233.5" width="339" height="200"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="SHq-3x-CM8"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BYF-2a-mSd">
+                                <rect key="frame" x="260" y="160" width="97" height="30"/>
+                                <state key="normal" title="Reload from 4"/>
+                                <connections>
+                                    <action selector="reloadAtIndexAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="W7T-TM-ioQ"/>
+                                </connections>
+                            </button>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="N2t-Vd-Mz4">
+                                <rect key="frame" x="169" y="315" width="37" height="37"/>
+                                <color key="color" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="N2t-Vd-Mz4" firstAttribute="centerY" secondItem="pc5-bl-B8A" secondAttribute="centerY" id="1Hf-91-9GU"/>
+                            <constraint firstItem="pc5-bl-B8A" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="DAT-Pm-mki"/>
+                            <constraint firstItem="pc5-bl-B8A" firstAttribute="top" secondItem="BYF-2a-mSd" secondAttribute="bottom" constant="43.5" id="Fh4-Ca-ton"/>
+                            <constraint firstItem="pc5-bl-B8A" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="QeI-gu-lEY"/>
+                            <constraint firstItem="BYF-2a-mSd" firstAttribute="trailing" secondItem="pc5-bl-B8A" secondAttribute="trailing" id="YFl-2D-Tk7"/>
+                            <constraint firstItem="pc5-bl-B8A" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="2" id="cmV-5T-eYU"/>
+                            <constraint firstItem="N2t-Vd-Mz4" firstAttribute="centerX" secondItem="pc5-bl-B8A" secondAttribute="centerX" id="ep9-6F-7y6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="N2t-Vd-Mz4" id="GPD-Du-PzS"/>
+                        <outlet property="cardView" destination="pc5-bl-B8A" id="jC2-wR-jt9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>
