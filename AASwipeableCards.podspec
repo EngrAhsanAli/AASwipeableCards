@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AASwipeableCards'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of AASwipeableCards.'
+  s.version          = '1.0'
+  s.summary          = 'Swiping Cards to with loadmore feature!'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  AASwipeableCards can be used to load more cards in a existing datasource and very easy to handle cards swiping to any direction.
                        DESC
 
   s.homepage         = 'https://github.com/engrahsanali/AASwipeableCards'
