@@ -212,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 7J9FU828Q2;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 7J9FU828Q2;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -478,6 +480,7 @@
 			baseConfigurationReference = 82A01AB7ECD932F505D1C1E4 /* Pods-AASwipeableCards_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7J9FU828Q2;
 				INFOPLIST_FILE = AASwipeableCards/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +496,7 @@
 			baseConfigurationReference = 54277DB4C527A14732A8F594 /* Pods-AASwipeableCards_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7J9FU828Q2;
 				INFOPLIST_FILE = AASwipeableCards/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -507,6 +511,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B14919DE9F9FF4F7699CFDA4 /* Pods-AASwipeableCards_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 7J9FU828Q2;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +534,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8AB1E92746172FB879AD58B0 /* Pods-AASwipeableCards_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 7J9FU828Q2;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

@@ -216,7 +216,7 @@ extension AASwipeableView {
             leftSwipeAction(card)
         } else {
             self.swipeEnded = true
-            UIView.animate(withDuration: 0.3) {
+            UIView.animate(withDuration: 0.1) {
                 card.center = self.originalPoint
                 card.transform = CGAffineTransform(rotationAngle: 0)
             }
@@ -225,21 +225,20 @@ extension AASwipeableView {
     }
     func rightSwipeAction(_ card: UIView) {
         let finishPoint = CGPoint(x: 500, y: 2.0 * yFromCenter + originalPoint.y)
-        UIView.animate(withDuration: 0.3, animations: {
-            card.center = finishPoint
-        }) { (Bool) in
-            self.cardDidSwiped(card)
-        }
+        card.center = finishPoint
+        self.cardDidSwiped(card)
     }
+    
     func leftSwipeAction(_ card: UIView) {
         let finishPoint = CGPoint(x: -500, y: 2.0 * yFromCenter + originalPoint.y)
-        UIView.animate(withDuration: 0.3, animations: {
-            card.center = finishPoint
-        }) { (Bool) in
-            self.cardDidSwiped(card)
-        }
+        card.center = finishPoint
+        self.cardDidSwiped(card)
     }
+    
     func cardDidSwiped(_ card: UIView) {
+        guard visibleCards.count > 0 else {
+            return
+        }
         swipeEnded = true
         card.transform = CGAffineTransform(rotationAngle: 0)
         card.center = originalPoint

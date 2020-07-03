@@ -52,7 +52,7 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        cardView.insertCards(withCount: 3) { (index, reusingView) -> UIView in
+        cardView.insertCards(withCount: 30) { (index, reusingView) -> UIView in
             var label: UILabel? = reusingView as? UILabel
             if label == nil {
                 label = UILabel(frame: self.cardView.frame)
